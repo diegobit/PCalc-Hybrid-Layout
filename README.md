@@ -10,7 +10,7 @@ The Hybrid layout is based on a heavily changed built-in *Programming* layout. I
 - removed some operations I didn't need
 - renamed `bin`, `oct`, `dec` and `hex` to `2`, `8`, `10`, `16`
 - added buttons to manage the clipboard with the same behaviour as the memory
-- added a button `log_y x`
+- added a button `logᵧx`
 - moved most buttons
 
 #### Issues
@@ -18,8 +18,8 @@ The Hybrid layout is based on a heavily changed built-in *Programming* layout. I
 - some buttons are duplicated, one visible only in RPN mode and the other in Algebraic mode due to some limitations in the layout editor (I could edit the layout manually, but...):
   - `clip str` (RPN 1st, Alg 1st) / `clip +` (RPN 2nd, Alg 2nd)
   - `clip rec` (RPN 1st, Alg 1st) / `clip -` (RPN 2nd, Alg 2nd)
-  - `log_y x`: RPN and Algebraic use different functions
-- `log_y x`: the *y* is actually a *ᵧ*
+  - `logᵧx`: RPN and Algebraic use different functions
+- `logᵧx`: the *ᵧ* should be a *y*
 - no `trunc` button for Algebraic mode
 - the `trunc` button hides `x~m` in RPN 2nd mode
 - bad parenthesis and `÷` placement in Algebraic mode
