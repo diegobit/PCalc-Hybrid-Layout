@@ -48,6 +48,8 @@ The Hybrid layout is based on a heavily changed built-in *Programming* layout. I
 ## Recommended settings
 #### *(to make PCalc look like the screenshot)*
 - Show Ticker Tape : OFF
+- Theme > Samurai
+- Digits > Thin
 - Display > Vertical Number of Lines : 4 or 7
 - Smart Resize : ON
 - Accessibility > Use Dynamic Type : OFF
