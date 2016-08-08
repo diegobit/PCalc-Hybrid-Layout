@@ -62,5 +62,5 @@ The Hybrid layout is based on a heavily changed built-in *Programming* layout. I
 - Advanced Settings > Hide Status Bar : OFF
 
 ## Changelog
-**0.9:** Added *Sum 10 times* function and button `+¹⁰`
+**0.9:** Added *Sum 10 times* function and button `+¹⁰`  
 **0.8:** Removed *Ratio* and rearranged the second and third row of the layout.
