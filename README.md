@@ -11,6 +11,7 @@ The Hybrid layout is based on a heavily changed built-in *Programming* layout. I
 - renamed `bin`, `oct`, `dec` and `hex` to `2`, `8`, `10`, `16`
 - added buttons to manage the clipboard with the same behaviour as the memory
 - added a button `logᵧx`
+- added `+¹⁰` (See *Sum 10 times* function) at the place of `+` in 2nd mode
 - moved most buttons
 
 #### Issues
@@ -39,11 +40,13 @@ The Hybrid layout is based on a heavily changed built-in *Programming* layout. I
 - *Random [0-100]*
 - *Random [x-y] alg*
 - *Random [x-y] rpn*
-- *Ratio*: solves equations *x:a=b:c* and *a:x=b:c*. Put a *0* instead of *x*. For example: *S2=a*, *S1=0*, *y=b*, *x=c*, then you can execute it. Available only in RPN mode.
+- *Ratio*: solves equations *x:a=b:c* and *a:x=b:c*. Put a *0* instead of *x*. For example: *S2=a*, *S1=0*, *y=b*, *x=c*, then you can execute it. Available only in RPN mode
+- *Sum 10 times*: sums the first 11 values of the RPN stack. Available only in RPN mode.
 
 #### Issues and TODO
 - *Ratio* doesn't solve equations *a:b=x:c* and *a:b=c:x*
-- to make *Ratio* for Algebraic mode
+- *Ratio* for Algebraic mode
+- make *Sum 10 times* work for any RPN stack depth (not possible with current PCalc commands)
 
 ## Recommended settings
 #### *(to make PCalc look like the screenshot)*
@@ -59,4 +62,5 @@ The Hybrid layout is based on a heavily changed built-in *Programming* layout. I
 - Advanced Settings > Hide Status Bar : OFF
 
 ## Changelog
+**0.9:** Added *Sum 10 times* function and button `+¹⁰`
 **0.8:** Removed *Ratio* and rearranged the second and third row of the layout.
