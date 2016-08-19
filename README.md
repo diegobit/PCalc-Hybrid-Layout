@@ -4,7 +4,7 @@
 
 ## Hybrid layout
 
-The Hybrid layout is based on a heavily changed built-in *Programming* layout. It is designed with RPN in mind but also supports the Algebraic mode.
+The Hybrid layout is based on a heavily changed built-in *Programming* layout. It is designed with RPN in mind but it also supports the Algebraic mode.
 
 - numbers, operations, `2nd` and `RPN` have bigger fonts
 - removed some operations I didn't need
@@ -35,6 +35,7 @@ The Hybrid layout is based on a heavily changed built-in *Programming* layout. I
 - *Subtract from Clipboard*
 
 *Hybrid* package contains:
+- *Binomial Coefficient (y, x)*. Available only in RPN mode
 - *Logᵧx alg*
 - *Logᵧx rpn*
 - *Random [0-100]*
@@ -47,6 +48,12 @@ The Hybrid layout is based on a heavily changed built-in *Programming* layout. I
 - *Ratio* doesn't solve equations *a:b=x:c* and *a:b=c:x*
 - *Ratio* for Algebraic mode
 - make *Sum 10 times* work for any RPN stack depth (not possible with current PCalc commands)
+
+## Instructions
+Just download and open the layout and the two function packages with PCalc.
+
+The hybrid layout is designed to use the latest version of each function package available before the next layout version (example: `Hybrid 0.9.pcalclayout` uses `Hybrid 0.9.1.pcalcfunctions` and `Clipboard 0.8.pcalcfunctions`, while `Hybrid 0.8.pcalclayout` uses `Hybrid 0.8.pcalcfunctions` and `Clipboard 0.8.pcalcfunctions`).
+Always use the latest version of each package unless you prefer an older layout. For example `Hybrid 0.8.pcalclayout` is the last one with the button `Ratio`.
 
 ## Recommended settings
 #### *(to make PCalc look like the screenshot)*
@@ -62,5 +69,6 @@ The Hybrid layout is based on a heavily changed built-in *Programming* layout. I
 - Advanced Settings > Hide Status Bar : OFF
 
 ## Changelog
+**0.9.1:** Added *Binomial Coefficient (y, x)* function
 **0.9:** Added *Sum 10 times* function and button `+¹⁰`  
 **0.8:** Removed *Ratio* and rearranged the second and third row of the layout.
