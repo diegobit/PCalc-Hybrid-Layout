@@ -42,6 +42,8 @@ The Hybrid layout is based on a heavily changed built-in *Programming* layout. I
 - *Ratio*: solves equations *x:a=b:c* and *a:x=b:c*. Put a *0* instead of *x*. For example: *S2=a*, *S1=0*, *y=b*, *x=c*, then you can execute it. Available only in RPN mode
 - *Sum 10 times*: it's like pressing `+` 10 times, it sums the first 11 values of the RPN stack. Available only in RPN mode.
 
+See their instructions inside [screenshots/](https://github.com/diegobit/PCalc-Hybrid-Layout/tree/master/screenshots)
+
 #### Issues and TODO
 - *Ratio* doesn't solve equations *a:b=x:c* and *a:b=c:x*
 - *Ratio* for Algebraic mode
