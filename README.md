@@ -12,7 +12,7 @@ The Hybrid layout a heavily changed *Programming* layout. It is designed with RP
 - added a key `logᵧx`
 - added `+¹⁰` and `×¹⁰` (See *Sum 10 times* and *Multiply 10 times* functions) at the place of `+` and `×` in 2nd mode
 
-#### Issues
+#### Issues and TODO
 
 - `logᵧx`: the *ᵧ* should be a *y*
 
@@ -34,7 +34,7 @@ The Hybrid layout a heavily changed *Programming* layout. It is designed with RP
 - *Paste Clipboard*
 - *Subtract from Clipboard*
 
-See their instructions inside [screenshots/](https://github.com/diegobit/PCalc-Hybrid-Layout/tree/master/screenshots)
+See the implementation inside [screenshots/](https://github.com/diegobit/PCalc-Hybrid-Layout/tree/master/screenshots)
 
 #### Issues and TODO
 - *Ratio* doesn't solve equations *a:b=x:c* and *a:b=c:x*
@@ -46,11 +46,11 @@ Just download and open the layout and the two function packages with PCalc.
 The hybrid layout is designed to use the latest version of each function package available before the next layout version (example: `Hybrid 0.9.pcalclayout` uses `Hybrid 0.9.1.pcalcfunctions` and `Clipboard 0.8.pcalcfunctions`, while `Hybrid 0.8.pcalclayout` uses `Hybrid 0.8.pcalcfunctions` and `Clipboard 0.8.pcalcfunctions`).
 Always use the latest version of each package unless you prefer an older layout. For example `Hybrid 0.8.pcalclayout` is the last one with the button `Ratio`.
 
-### Legacy versions
+#### Legacy versions
 - Latest with RPN key: 0.10
 - Latest with algebraic support: 0.10
 - Latest with clipboard keys: 0.10
-- Latest with Ratio: 0.8
+- Latest with Ratio key: 0.8
 
 ## Recommended settings
 #### *(to make PCalc look like the screenshot)*
