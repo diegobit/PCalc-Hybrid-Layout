@@ -73,9 +73,12 @@ Always use the latest version of each package unless you prefer an older layout.
 - added `roll up` key
 - renamed clipboard and memory keys to use PCalc default naming
 - added `×¹⁰` key and *Multiply 10 Times* function
+
 **0.9.1:**
 - Added *Binomial Coefficient (y, x)* function
+
 **0.9:**
 - Added *Sum 10 times* function and button `+¹⁰`
+
 **0.8:**
 - Removed *Ratio* and rearranged the second and third row of the layout.
