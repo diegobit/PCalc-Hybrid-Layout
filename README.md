@@ -4,49 +4,40 @@
 
 ## Hybrid layout
 
-The Hybrid layout is based on a heavily changed built-in *Programming* layout. It is designed with RPN in mind but it also supports the Algebraic mode.
+The Hybrid layout a heavily changed *Programming* layout. It is designed with RPN in mind, so I advice to use it with RPN mode. 
 
-- numbers, operations, `2nd` and `RPN` have bigger fonts
+- numbers, operations, and other keys have bigger fonts
 - removed some operations I didn't need
 - renamed `bin`, `oct`, `dec` and `hex` to `2`, `8`, `10`, `16`
-- added keys to manage the clipboard with the same behaviour as the memory
 - added a key `logᵧx`
 - added `+¹⁰` and `×¹⁰` (See *Sum 10 times* and *Multiply 10 times* functions) at the place of `+` and `×` in 2nd mode
 
 #### Issues
 
-- some keys are duplicated, one visible only in RPN mode and the other in Algebraic mode due to some limitations in the layout editor (I could edit the layout manually, but...):
-  - `clip str` (RPN 1st, Alg 1st) / `clip +` (RPN 2nd, Alg 2nd)
-  - `clip rec` (RPN 1st, Alg 1st) / `clip -` (RPN 2nd, Alg 2nd)
-  - `logᵧx`: RPN and Algebraic use different functions
 - `logᵧx`: the *ᵧ* should be a *y*
-- bad parenthesis and `÷` placement in Algebraic mode
 
 ## Functions
+
+*Hybrid* package contains:
+- *Binomial Coefficient (y, x)*
+- *Logᵧx*
+- *Multiply 10 times*: it's like pressing `×` 10 times, it multiplies the first 11 values of the RPN stack
+- *Random [0-1]*
+- *Random Integer [0-100]*
+- *Random Integer [x-y]*
+- *Ratio*: solves equations *x:a=b:c* and *a:x=b:c*. Put a *0* instead of *x*. For example: *S2=a*, *S1=0*, *y=b*, *x=c*, then you can execute it
+- *Sum 10 times*: it's like pressing `+` 10 times, it sums the first 11 values of the RPN stack.
 
 *Clipboard* package contains:
 - *Add to Clipboard*
 - *Copy to Clipboard*
-- *Paste Clipboard alg*
-- *Paste Clipboard rpn*
+- *Paste Clipboard*
 - *Subtract from Clipboard*
-
-*Hybrid* package contains:
-- *Binomial Coefficient (y, x)*. Available only in RPN mode
-- *Logᵧx alg*
-- *Logᵧx rpn*
-- *Multiply 10 times*: it's like pressing `×` 10 times, it multiplies the first 11 values of the RPN stack. Available only in RPN mode.
-- *Random [0-100]*
-- *Random [x-y] alg*
-- *Random [x-y] rpn*
-- *Ratio*: solves equations *x:a=b:c* and *a:x=b:c*. Put a *0* instead of *x*. For example: *S2=a*, *S1=0*, *y=b*, *x=c*, then you can execute it. Available only in RPN mode
-- *Sum 10 times*: it's like pressing `+` 10 times, it sums the first 11 values of the RPN stack. Available only in RPN mode.
 
 See their instructions inside [screenshots/](https://github.com/diegobit/PCalc-Hybrid-Layout/tree/master/screenshots)
 
 #### Issues and TODO
 - *Ratio* doesn't solve equations *a:b=x:c* and *a:b=c:x*
-- *Ratio* for Algebraic mode
 - make *Sum 10 times* and *Multiply 10 times* work for any RPN stack depth (not possible with current PCalc instructions)
 
 ## Instructions
@@ -55,8 +46,15 @@ Just download and open the layout and the two function packages with PCalc.
 The hybrid layout is designed to use the latest version of each function package available before the next layout version (example: `Hybrid 0.9.pcalclayout` uses `Hybrid 0.9.1.pcalcfunctions` and `Clipboard 0.8.pcalcfunctions`, while `Hybrid 0.8.pcalclayout` uses `Hybrid 0.8.pcalcfunctions` and `Clipboard 0.8.pcalcfunctions`).
 Always use the latest version of each package unless you prefer an older layout. For example `Hybrid 0.8.pcalclayout` is the last one with the button `Ratio`.
 
+### Legacy versions
+- Latest with RPN key: 0.10
+- Latest with algebraic support: 0.10
+- Latest with clipboard keys: 0.10
+- Latest with Ratio: 0.8
+
 ## Recommended settings
 #### *(to make PCalc look like the screenshot)*
+- RPN : ON
 - Show Ticker Tape : OFF
 - Theme > Samurai
 - Digits > Thin
@@ -69,18 +67,27 @@ Always use the latest version of each package unless you prefer an older layout.
 - Advanced Settings > Hide Status Bar : OFF
 
 ## Changelog
+**1.0:**
+- layout: removed algebraic support (removed RPN toggle key)
+- layout: removed clipboard keys (long tap display)
+- layout: moved other keys
+- functions: remove algebraic versions
+- functions: added *Random [0-1]*
+
 **0.10:**
-- changed some sizes and colours (Thanks to PCalc 3.6.1)
-- fixed round and trunc
-- added `roll up` key
-- renamed clipboard and memory keys to use PCalc default naming
-- added `×¹⁰` key and *Multiply 10 Times* function
+- layout: changed some sizes and colours (Thanks to PCalc 3.6.1)
+- layout: fixed round and trunc
+- layout: added `roll up` key
+- layout: renamed clipboard and memory keys to use PCalc default naming
+- layout: added `×¹⁰` key
+- functions: added *Multiply 10 Times*
 
 **0.9.1:**
-- Added *Binomial Coefficient (y, x)* function
+- functions: added *Binomial Coefficient (y, x)* function
 
 **0.9:**
-- Added *Sum 10 times* function and button `+¹⁰`
+- layout: added `+¹⁰` key
+- functions: added *Sum 10 times*
 
 **0.8:**
-- Removed *Ratio* and rearranged the second and third row of the layout.
+- layout: removed *Ratio* key and rearranged the second and third row of the layout.
