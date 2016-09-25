@@ -6,15 +6,17 @@
 
 The Hybrid layout is a heavily changed *Programming* layout. It is designed to be used in RPN mode.
 
+Some changes:
+
 - numbers, operations, and other keys have bigger fonts
-- removed some operations I didn't need
-- renamed `bin`, `oct`, `dec` and `hex` to `2`, `8`, `10`, `16`
-- added a key `logᵧx`
+- removed some operations
+- renamed `bin`, `oct`, `dec` and `hex` to `2`, `8`, `10`, `16` and others
+- added `logᵧx` and `roll ↑` keys
 - added `+¹⁰` and `×¹⁰` (See *Sum 10 times* and *Multiply 10 times* functions) at the place of `+` and `×` in 2nd mode
 
 #### Issues and TODO
 
-- `logᵧx`: the *ᵧ* should be a *y*
+- `logᵧx`: the *ᵧ* should be a subscript *y*
 
 ## Functions
 
