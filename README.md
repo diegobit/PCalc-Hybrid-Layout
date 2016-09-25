@@ -4,7 +4,7 @@
 
 ## Hybrid layout
 
-The Hybrid layout a heavily changed *Programming* layout. It is designed with RPN in mind, so I advice to use it with RPN mode. 
+The Hybrid layout is a heavily changed *Programming* layout. It is designed to be used in RPN mode.
 
 - numbers, operations, and other keys have bigger fonts
 - removed some operations I didn't need
