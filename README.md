@@ -22,6 +22,7 @@ Some changes:
 
 *Hybrid* package contains:
 - *Binomial Coefficient (y, x)*
+- *Complementary to 1*: computes 1 - x
 - *Logᵧx*
 - *Multiply 10 times*: it's like pressing `×` 10 times, it multiplies the first 11 values of the RPN stack
 - *Random [0-1]*
@@ -69,6 +70,10 @@ Always use the latest version of each package unless you prefer an older layout.
 - Advanced Settings > Hide Status Bar : OFF
 
 ## Changelog
+**1.1:**
+- layout: added `1−x` in 2nd mode
+- functions: added *Complementary to 1*
+
 **1.0:**
 - layout: removed algebraic support (removed RPN toggle key)
 - layout: removed clipboard keys (long tap display)
