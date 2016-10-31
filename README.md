@@ -70,6 +70,9 @@ Always use the latest version of each package unless you prefer an older layout.
 - Advanced Settings > Hide Status Bar : OFF
 
 ## Changelog
+**1.1.1:**
+- Fixed 2nd mode labels for some keys with Advanced Settings > Show 2nd Labels : ON
+
 **1.1:**
 - layout: added `1−x` in 2nd mode
 - functions: added *Complementary to 1*
