@@ -70,6 +70,9 @@ Always use the latest version of each package unless you prefer an older layout.
 - Advanced Settings > Hide Status Bar : OFF
 
 ## Changelog
+**1.2:**
+- Added key `C(x, y)`: computes Binomial Coefficient(x, y)
+
 **1.1.1:**
 - Fixed 2nd mode labels for some keys with Advanced Settings > Show 2nd Labels : ON
 
